@@ -6,13 +6,11 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import NAvbar from './componant/Home/NAvbar/NAvbar';
 import Layout from './componant/Home/Layout/Layout';
 import About from './componant/Home/About/About';
-import Portfolio from './componant/Home/portfolio/portfolio';
+import Portfolio from './componants/Home/portfolio/portfolio';
 import Contant from './componant/contant/contant';
 import Home from './componant/Home/Home';
 import Notfound from './componant/contant/Notfound/Notfound';
 import '@fortawesome/fontawesome-free/css/all.min.css'
-
-
 
 function App() {
   const routes = createBrowserRouter([
