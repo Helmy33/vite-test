@@ -30,7 +30,7 @@ export default function NAvbar() {
           <NavLink to='' className="text-3xl text-uppercase font-bold rounded-md  px-2 py-1 capitalize">start framework</NavLink>
 
         </div>
-        <div className='hidden sm:block'>
+        <div className='hidden sm:block bg-black'>
           <ul className='flex item-center justify-center gap-4'>
 
             <li>
@@ -57,7 +57,7 @@ export default function NAvbar() {
            ${isOpen ? "max-h-96 py-4" : "max-h-0 py-0"
   }`}
 >
-          <ul className='flex flex-col gap-4 py-5 '>
+          <ul className='flex flex-col gap-4 py-5  '>
 
             <li>
               <NavLink to="About" className="rounded-md  px-2 py-1 capitalize">About</NavLink>
