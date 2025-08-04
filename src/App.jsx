@@ -7,7 +7,7 @@ import NAvbar from './componant/Home/NAvbar/NAvbar';
 import Layout from './componant/Home/Layout/Layout';
 import About from './componant/Home/About/About';
 import Portfolio from './componant/Home/portfolio/Portfolio';
-import Contant from "src/App.jsx ./componant/Contant/Contant";
+import Contant from './componant/Contant/Contant';
 import Home from './componant/Home/Home';
 import Notfound from './componant/contant/Notfound/Notfound';
 import '@fortawesome/fontawesome-free/css/all.min.css'
