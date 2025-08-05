@@ -51,13 +51,14 @@ export default function NAvbar() {
             <i className="fa-solid fa-bars"></i>
           </button>
         </div>
+          </div>
    
       {isOpen && (
         <div className={`bg-[#2C3E50] sm:hidden transition-[padding] duration-300 
            ${isOpen ? "max-h-80 " : "max-h-0 py-0"
   }`}
 >
-          <ul className='flex flex-col gap-4 py-5 '>
+          <ul className='flex flex-col gap-4  '>
 
             <li>
               <NavLink to="About" className="rounded-md  px-2 py-1 capitalize">About</NavLink>
@@ -73,7 +74,6 @@ export default function NAvbar() {
           </ul>
         </div>
       )}
-         </div>
     </nav>
   )
 }
