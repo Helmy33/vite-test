@@ -68,7 +68,7 @@ export default function NAvbar() {
             </li>
 
             <li>
-              <NavLink to="Contant" className="rounded-md  px-2 py-1 capitalize">contact</NavLink>
+              <NavLink to="Contant" className="rounded-md  px-2 py-1 capitalize"></NavLink>
             </li>
           </ul>
         </div>
