@@ -51,7 +51,7 @@ export default function NAvbar() {
             <i className="fa-solid fa-bars"></i>
           </button>
         </div>
-      </div>
+   
       {isOpen && (
         <div className={`bg-[#2C3E50] sm:hidden transition-[padding] duration-300 
            ${isOpen ? "max-h-80 " : "max-h-0 py-0"
@@ -73,6 +73,7 @@ export default function NAvbar() {
           </ul>
         </div>
       )}
+         </div>
     </nav>
   )
 }
