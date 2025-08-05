@@ -47,14 +47,14 @@ export default function NAvbar() {
           </ul>
         </div>
         <div className='block sm:hidden '>
-          <button onClick={() => setIsOpen(!isOpen)}className=' rounded-md border-2 border-black text-blue-900 text-3xl'>
+          <button onClick={() => setIsOpen(!isOpen)}className='py-2 rounded-md border-2 border-black text-blue-900 text-3xl'>
             <i className="fa-solid fa-bars"></i>
           </button>
         </div>
       </div>
       {isOpen && (
-        <div className={`bg-[#2C3E50] sm:hidden transition-[padding] duration-300 
-           ${isOpen ? "max-h-80 " : "max-h-0 py-0"
+        <div className={`bg-[#2C3E50] sm:hidden transition-[padding] duration-300 px-4 
+           ${isOpen ? "max-h-96 py-4" : "max-h-0 py-0"
   }`}
 >
           <ul className='flex flex-col gap-4 py-5 '>
