@@ -22,7 +22,7 @@ export default function NAvbar() {
   }
   window.addEventListener("scroll", handleScroll);
   return (
-    <nav className={`bg-[#2C3E50] fixed start-0 right-0 top-0 h-20 z-50   transition-[padding] duration-300  text-white ${isScroll ? "py-4" : "py-8"
+    <nav className={`bg-[#2C3E50] fixed start-0 right-0 top-0 h-20 z-50   transition-[padding] duration-300  text-white ${isScroll ? "py-6" : "py-8"
       }`}
     >
       <div className="container px-2 sm:px-0 flex items-center justify-between mx-auto">
@@ -51,14 +51,13 @@ export default function NAvbar() {
             <i className="fa-solid fa-bars"></i>
           </button>
         </div>
-          </div>
-   
+      </div>
       {isOpen && (
         <div className={`bg-[#2C3E50] sm:hidden transition-[padding] duration-300 
            ${isOpen ? "max-h-80 " : "max-h-0 py-0"
   }`}
 >
-          <ul className='flex flex-col gap-4  '>
+          <ul className='flex flex-col gap-4 py-5 '>
 
             <li>
               <NavLink to="About" className="rounded-md  px-2 py-1 capitalize">About</NavLink>
