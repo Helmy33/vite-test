@@ -22,7 +22,7 @@ export default function NAvbar() {
   }
   window.addEventListener("scroll", handleScroll);
   return (
-    <nav className={`bg-[#2C3E50] fixed start-0 right-0 top-0 h-20 z-50   transition-[padding] duration-300  text-white ${isScroll ? "py-6" : "py-8"
+    <nav className={`bg-[#2C3E50] fixed start-0 right-0 top-0 h-20 z-50   transition-[padding] duration-300  text-white ${isScroll ? "py-4" : "py-8"
       }`}
     >
       <div className="container px-2 sm:px-0 flex items-center justify-between mx-auto">
@@ -47,7 +47,7 @@ export default function NAvbar() {
           </ul>
         </div>
         <div className='block sm:hidden '>
-          <button onClick={() => setIsOpen(!isOpen)}className='py-2 rounded-md border-2 border-black text-blue-900 text-3xl'>
+          <button onClick={() => setIsOpen(!isOpen)}className=' rounded-md border-2 border-black text-blue-900 text-3xl'>
             <i className="fa-solid fa-bars"></i>
           </button>
         </div>
