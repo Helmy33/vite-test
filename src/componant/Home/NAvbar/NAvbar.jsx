@@ -53,7 +53,7 @@ export default function NAvbar() {
         </div>
       </div>
       {isOpen && (
-        <div className={`sm:hidden transition-[padding] duration-300 px-4 
+        <div className={`bg-[#2C3E50] sm:hidden transition-[padding] duration-300 
            ${isOpen ? "max-h-96 py-4" : "max-h-0 py-0"
   }`}
 >
