@@ -10,10 +10,7 @@ export default function NAvbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   function handleScroll() {
-    console.log("test");
-
-
-    if (window.scrollY > 50) {
+    if (window.scrollY > 10) {
       setisScroll(true);
     } else {
       setisScroll(false);
