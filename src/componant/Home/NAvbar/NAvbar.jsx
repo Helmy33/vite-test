@@ -54,7 +54,7 @@ export default function NAvbar() {
       </div>
       {isOpen && (
         <div className={`bg-[#2C3E50] sm:hidden transition-[padding] duration-300 
-           ${isOpen ? "max-h-96 " : "max-h-0 py-0"
+           ${isOpen ? "max-h-80 " : "max-h-0 py-0"
   }`}
 >
           <ul className='flex flex-col gap-4 py-5 '>
