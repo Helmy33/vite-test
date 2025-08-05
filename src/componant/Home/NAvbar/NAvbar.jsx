@@ -13,7 +13,7 @@ export default function NAvbar() {
     console.log("test");
 
 
-    if (window.scrollY > 10) {
+    if (window.scrollY > 50) {
       setisScroll(true);
     } else {
       setisScroll(false);
